@@ -11,7 +11,8 @@ public class LoginPageTest extends BaseClass {
 
 	@Test
 	public void verifyLogin() {
-		
+	LoginPage loginPage = new LoginPage(driver);
+
 	logger.info("/******Verify Logging Started*********/");
 	LoginPage lp=new LoginPage(driver);
 	lp.enterUsername(username);
