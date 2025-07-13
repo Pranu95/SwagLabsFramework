@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 	
-	WebDriver ldriver;
+	public static WebDriver ldriver;
 	
 	public LoginPage(WebDriver rdriver) {
 		ldriver=rdriver;
